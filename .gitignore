@@ -1,0 +1,5 @@
+src/generated
+*.iml
+build
+.idea
+.gradle

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://github.com/ewerk/gradle-plugins/sample"
+    xmlns="http://github.com/ewerk/gradle-plugins/sample"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+  <xs:element name="bar1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar3">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar4">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar5">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar6">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar7">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar8">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar9">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar10">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar11">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar12">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="reqId" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

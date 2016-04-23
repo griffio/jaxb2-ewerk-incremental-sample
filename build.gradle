@@ -1,0 +1,21 @@
+apply from: 'ewerk-plugins.gradle'
+
+repositories {
+  mavenCentral()
+}
+
+jaxb2 {
+  xjc {
+    'bar-classes' {
+      basePackage = 'example.bar'
+      schema = 'src/main/xsd/bar.xsd'
+    }
+  }
+
+  xjc {
+    'foo-classes' {
+      basePackage = 'example.foo'
+      schema = 'src/main/xsd/foo.xsd'
+    }
+  }
+}

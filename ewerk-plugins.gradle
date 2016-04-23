@@ -1,0 +1,13 @@
+import com.ewerk.gradle.plugins.Jaxb2Plugin
+
+buildscript {
+  repositories {
+    mavenLocal()
+  }
+
+  dependencies {
+    classpath('com.ewerk.gradle.plugins:jaxb2-plugin:1.0.2-SNAPSHOT')
+  }
+}
+
+apply plugin: Jaxb2Plugin
