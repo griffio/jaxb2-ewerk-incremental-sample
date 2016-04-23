@@ -9,6 +9,8 @@ The xjc will only recompile if source schema timestamp is modified.
 
 Changing schema files for bar or foo will recompile only bar or foo.
 
+~~~
 src/generated/example/bar
 src/generated/example/foo
+~~~
 
